@@ -1,0 +1,16 @@
+﻿Region description,Network_zones,CapRes_1
+MIS_Central,z1,0
+MIS_East,z2,0
+NY_East,z3,0
+NY_West,z4,0
+PJM_COMD,z5,0.156
+PJM_Delaware,z6,0.156
+PJM_Dom,z7,0.156
+PJM_NJCoast,z8,0.156
+PJM_NJLand,z9,0.156
+PJM_PECO,z10,0.156
+PJM_SMAC,z11,0.156
+PJM_WEST,z12,0.156
+PJM_WestMAC,z13,0.156
+SC_TVA,z14,0
+SC_VACA,z15,0

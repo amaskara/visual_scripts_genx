@@ -1,0 +1,2032 @@
+additional_new_gen: null
+additional_planned: null
+additional_retirements:
+- - 1571
+  - 3
+  - 2021
+- - 1571
+  - 4
+  - 2021
+- - 3797
+  - 5
+  - 2023
+- - 3797
+  - 6
+  - 2023
+- - 54081
+  - GEN1
+  - 2021
+- - 54081
+  - GEN2
+  - 2021
+- - 54081
+  - GEN3
+  - 2021
+- - 54081
+  - GEN4
+  - 2021
+- - 55738
+  - 1
+  - 2023
+- - 55738
+  - 2
+  - 2023
+- - 3804
+  - 5
+  - 2021
+- - 599
+  - 3
+  - 2021
+- - 6004
+  - 1
+  - 2022
+- - 6004
+  - 2
+  - 2022
+- - 2866
+  - A1
+  - 2021
+- - 2866
+  - B1
+  - 2021
+- - 2866
+  - B2
+  - 2021
+- - 2866
+  - B3
+  - 2021
+- - 2866
+  - B4
+  - 2021
+- - 1572
+  - ST1
+  - 2020
+- - 1572
+  - 2
+  - 2020
+- - 1572
+  - 3
+  - 2020
+- - 50879
+  - GEN1
+  - 2020
+- - 1555
+  - GT5
+  - 2020
+- - 1555
+  - GT6
+  - 2020
+- - 1555
+  - GT7
+  - 2020
+- - 1555
+  - GT8
+  - 2020
+- - 2837
+  - 6
+  - 2020
+- - 57433
+  - 1
+  - 2020
+- - 57433
+  - 2
+  - 2020
+- - 57433
+  - 3
+  - 2020
+- - 6016
+  - 1
+  - 2020
+- - 1559
+  - GT8
+  - 2020
+- - 892
+  - 1
+  - 2020
+- - 892
+  - 2
+  - 2020
+- - 861
+  - 2
+  - 2020
+- - 55618
+  - GEN1
+  - 2020
+- - 55618
+  - GEN2
+  - 2020
+- - 8011
+  - 1
+  - 2020
+- - 10641
+  - GEN1
+  - 2020
+- - 56572
+  - 1
+  - 2020
+- - 10633
+  - GT1
+  - 2020
+- - 2840
+  - 4
+  - 2020
+- - 1374
+  - 1
+  - 2020
+- - 1374
+  - 2
+  - 2020
+- - 3803
+  - GT2
+  - 2020
+- - 10384
+  - GEN1
+  - 2020
+- - 10384
+  - GEN2
+  - 2020
+- - 1559
+  - GT8
+  - 2020
+- - 6094
+  - 3
+  - 2020
+additional_technologies_fn: null
+aeo_fuel_region_map:
+  east_north_central:
+  - PJM_WEST
+  - PJM_COMD
+  middle_atlantic:
+  - NY_East
+  - NY_West
+  - PJM_Delaware
+  - PJM_NJCoast
+  - PJM_NJLand
+  - PJM_PECO
+  - PJM_WestMAC
+  south_atlantic:
+  - PJM_Dom
+  - PJM_SMAC
+  - SC_VACA
+  - SC_TVA
+  west_north_central:
+  - MIS_East
+  - MIS_Central
+aeo_fuel_scenarios:
+  coal: reference
+  distillate: reference
+  naturalgas: reference
+  uranium: reference
+aeo_fuel_usd_year: 2019
+aeo_hist_end_elec_demand:
+  NEPP_UpstateNY: 82.008
+  RFC_East: 277.543
+  RFC_West: 519.775
+  SERC_Gateway: 107.353
+  SERC_Southeast: 235.89
+  SERC_VC: 317.693
+  WECC_California: 272.511
+  WECC_Northwest: 249.88
+  WECC_Rockies: 69.391
+  WECC_Southwest: 132.281
+aeo_hist_start_elec_demand:
+  NEPP_UpstateNY: 75.032
+  RFC_East: 289.175
+  RFC_West: 551.497
+  SERC_Gateway: 106.478
+  SERC_Southeast: 253.703
+  SERC_VC: 329.273
+  WECC_California: 270.271
+  WECC_Northwest: 245.317
+  WECC_Rockies: 64.484
+  WECC_Southwest: 131.191
+alt_atb_cap_recovery_years:
+  Battery: 15
+  NaturalGas_CCAvg: 15
+  NaturalGas_CTAvg: 15
+  Nuclear: 40
+alt_cluster_method: null
+alt_growth_rate: null
+alt_num_clusters:
+  MIS_Central:
+    Biomass: 0
+    Natural Gas Fired Combustion Turbine: 2
+    Natural Gas Steam Turbine: 0
+    Small Hydroelectric: 0
+  MIS_East:
+    Conventional Hydroelectric: 0
+    Natural Gas Fired Combined Cycle: 2
+    Natural Gas Fired Combustion Turbine: 4
+    Natural Gas Steam Turbine: 0
+    Small Hydroelectric: 0
+  NY_East:
+    Biomass: 0
+    Natural Gas Fired Combined Cycle: 6
+    Natural Gas Fired Combustion Turbine: 6
+    Natural Gas Steam Turbine: 0
+  NY_West:
+    Natural Gas Fired Combined Cycle: 2
+    Natural Gas Fired Combustion Turbine: 3
+  PJM_COMD:
+    Biomass: 0
+    Conventional Hydroelectric: 0
+    Conventional Steam Coal: 3
+    Small Hydroelectric: 0
+  PJM_Dom:
+    Conventional Steam Coal: 4
+  PJM_NJLand:
+    Biomass: 1
+    Natural Gas Fired Combined Cycle: 4
+    Natural Gas Fired Combustion Turbine: 4
+  PJM_PECO:
+    Biomass: 2
+    Natural Gas Steam Turbine: 1
+  PJM_SMAC:
+    Biomass: 0
+    Natural Gas Fired Combined Cycle: 4
+    Natural Gas Fired Combustion Turbine: 6
+    Natural Gas Steam Turbine: 0
+  PJM_WEST:
+    Natural Gas Fired Combined Cycle: 2
+    Natural Gas Fired Combustion Turbine: 6
+    Natural Gas Steam Turbine: 0
+  PJM_WestMAC:
+    Biomass: 0
+    Conventional Steam Coal: 4
+    Natural Gas Steam Turbine: 1
+  SC_TVA:
+    Biomass: 0
+    Natural Gas Fired Combustion Turbine: 6
+    Natural Gas Steam Turbine: 4
+  SC_VACA:
+    Natural Gas Fired Combustion Turbine: 6
+    Natural Gas Steam Turbine: 6
+alt_year_filters:
+  Biomass: null
+  Conventional Hydroelectric: null
+  Geothermal: null
+  Small Hydroelectric: null
+atb_battery_wacc: UtilityPV
+atb_cap_recovery_years: 20
+atb_cost_case: Mid
+atb_existing_year: 2018
+atb_financial_case: Market
+atb_modifiers:
+  NGCCS100:
+    capex:
+    - mul
+    - 1
+    tech_detail: CCS100
+    technology: NaturalGas
+  ngcc:
+    Fixed_OM_cost_per_MWyr:
+    - mul
+    - 0.95
+    Heat_rate_MMBTU_per_MWh:
+    - mul
+    - 0.98
+    Var_OM_cost_per_MWh:
+    - mul
+    - 0.73
+    capex:
+    - mul
+    - 0.89
+    tech_detail: CCAvgCF
+    technology: NaturalGas
+  ngccccs:
+    capex:
+    - mul
+    - 1
+    tech_detail: CCCCSAvgCF
+    technology: NaturalGas
+  ngct:
+    Fixed_OM_cost_per_MWyr:
+    - mul
+    - 0.56
+    Heat_rate_MMBTU_per_MWh:
+    - mul
+    - 0.97
+    Var_OM_cost_per_MWh:
+    - mul
+    - 1.51
+    capex:
+    - mul
+    - 0.76
+    tech_detail: CTAvgCF
+    technology: NaturalGas
+atb_new_gen:
+- - NaturalGas
+  - CCCCSAvgCF
+  - Mid
+  - 500
+- - NaturalGas
+  - CCAvgCF
+  - Mid
+  - 500
+- - NaturalGas
+  - CTAvgCF
+  - Mid
+  - 100
+- - LandbasedWind
+  - LTRG1
+  - Mid
+  - 1
+- - OffShoreWind
+  - OTRG3
+  - Mid
+  - 1
+- - UtilityPV
+  - LosAngeles
+  - Mid
+  - 1
+- - Battery
+  - '*'
+  - Mid
+  - 1
+- - Nuclear
+  - '*'
+  - Mid
+  - 500
+atb_usd_year: 2017
+avg_distribution_loss: 0.0453
+capacity_col: winter_capacity_mw
+capacity_factor_default_year_filter:
+- 2016
+- 2017
+capacity_factor_techs:
+- Small Hydroelectric
+- Biomass
+- Geothermal
+capacity_limit_spur_line_fn: pjm_resource_capacity_spur_line.csv
+carbon_tax: 0
+case_id: p3
+case_id_description_fn: pjm_case_id_description.csv
+case_name: deep_decarbonization
+ccs_capex: mid
+ccs_capture_rate:
+  coal_ccs30: 0.3
+  coal_ccs90: 0.9
+  naturalgas_ccs100: 1.0
+  naturalgas_ccs90: 0.9
+ccs_disposal_cost: -27
+ccs_fuel_map:
+  Coal_CCS30: coal_ccs30
+  Coal_CCS90: coal_ccs90
+  NaturalGas_CCCCS: naturalgas_ccs90
+  NaturalGas_CCS100: naturalgas_ccs100
+cluster_by_age:
+- Conventional Steam Coal
+cluster_by_owner_regions: null
+cluster_method: kmeans
+conv_hydro_rps_eligible: 'no'
+cost_multiplier_region_map:
+  BASN:
+  - WECC_ID
+  - WECC_WY
+  - WECC_UT
+  - WECC_NNV
+  CANO:
+  - WEC_CALN
+  - WEC_BANC
+  - CA_N
+  - CA_S
+  CASO:
+  - WECC_IID
+  - WECC_SCE
+  - WEC_LADW
+  - WEC_SDGE
+  FRCC:
+  - FRCC
+  ISNE:
+  - NENG_ME
+  - NENGREST
+  - NENG_CT
+  MISC:
+  - MIS_Central
+  MISE:
+  - MIS_East
+  - MIS_LMI
+  MISS:
+  - MIS_AMSO
+  - MIS_WOTA
+  - MIS_LA
+  - MIS_AR
+  - MIS_D_MS
+  MISW:
+  - MIS_WUMS
+  - MIS_MNWI
+  - MIS_IA
+  NWPP:
+  - WECC_PNW
+  - WECC_MT
+  NYCW:
+  - NY_East
+  - NY_Z_J
+  - NY_Z_K
+  NYUP:
+  - NY_West
+  - NY_Z_A
+  - NY_Z_B
+  - NY_Z_C&E
+  - NY_Z_D
+  - NY_Z_F
+  - NY_Z_G-I
+  PJMC:
+  - PJM_COMD
+  PJMD:
+  - PJM_Dom
+  PJME:
+  - PJM_WestMAC
+  - PJM_WMAC
+  - PJM_Delaware
+  - PJM_NJCoast
+  - PJM_NJLand
+  - PJM_PECO
+  - PJM_SMAC
+  - PJM_PENE
+  PJMW:
+  - PJM_WEST
+  - PJM_West
+  - PJM_AP
+  - PJM_ATSI
+  RMRG:
+  - WECC_CO
+  SPPC:
+  - SPP_N
+  SPPN:
+  - MIS_MAPP
+  - SPP_WAUE
+  - SPP_NEBR
+  - MIS_MIDA
+  SPPS:
+  - SPP_WEST
+  - SPP_SPS
+  SRCA:
+  - SC_VACA
+  SRCE:
+  - SC_TVA
+  - S_C_KY
+  SRSE:
+  - S_SOU
+  SRSG:
+  - WECC_AZ
+  - WECC_NM
+  - WECC_SNV
+  TRE:
+  - ERC_PHDL
+  - ERC_REST
+  - ERC_WEST
+cost_multiplier_technology_map:
+  Advanced nuclear:
+  - Nuclear_*
+  - Nuclear_mid
+  - Nuclear_low
+  - Nuclear_high
+  Battery storage:
+  - Battery_*
+  Biomass:
+  - Biopower_CofireOld
+  - Biopower_CofireNew
+  - Biopower_Dedicated
+  CC - multi shaft:
+  - NaturalGas_CCAvgCF
+  - NaturalGas_CCHighCF
+  CC - single shaft: []
+  CC with 90% CCS:
+  - NaturalGas_CCCCSAvgCF
+  - NaturalGas_CCCCSHighCF
+  - NGCCS100
+  - NaturalGas_CCS100
+  - NaturalGas_CCS100_low
+  - NaturalGas_CCS100_high
+  CT - aeroderivative: []
+  CT - industrial frame:
+  - NaturalGas_CTAvgCF
+  - NaturalGas_CTHighCF
+  Fuel cells: []
+  MSW - landfill gas: []
+  Solar PV - tracking:
+  - UtilityPV
+  - CommPV
+  - ResPV
+  Solar thermal:
+  - CSP
+  USC with 30% CCS:
+  - Coal_CCS30AvgCF
+  - Coal_CCS30HighCF
+  USC with 90% CCS: Coal_CCS90AvgCF, Coal_CCS90HighCF]
+  Ultra-supercritical coal (USC):
+  - Coal_newAvgCF
+  - Coal_newHighCF
+  Wind:
+  - LandbasedWind
+  Wind offshore:
+  - OffShoreWind
+data_years:
+- 2018
+default_growth_rates:
+  NEPP_UpstateNY: 0.001
+  RFC_East: 0.004
+  RFC_West: 0.005
+  SERC_Gateway: 0.005
+  SERC_Southeast: 0.008
+  SERC_VC: 0.008
+  WECC_California: 0.003
+  WECC_Northwest: 0.007
+  WECC_Rockies: 0.011
+  WECC_Southwest: 0.011
+default_load_year: 2011
+default_model_tag: 0
+demand_response: deep_decarbonization
+demand_response_fn: pjm_demand_response.csv
+demand_response_resources:
+  2030:
+    ev_load_shifting:
+      fraction_shiftable: 0.8
+      parameter_values:
+        DR: 2
+        Max_DSM_delay: 5
+    heat_load_shifting:
+      fraction_shiftable: 0.1
+      parameter_values:
+        DR: 2
+        Max_DSM_delay: 1
+  2040:
+    ev_load_shifting:
+      fraction_shiftable: 0.8
+      parameter_values:
+        DR: 2
+        Max_DSM_delay: 5
+    heat_load_shifting:
+      fraction_shiftable: 0.1
+      parameter_values:
+        DR: 2
+        Max_DSM_delay: 1
+  2050:
+    ev_load_shifting:
+      fraction_shiftable: 0.8
+      parameter_values:
+        DR: 2
+        Max_DSM_delay: 5
+    heat_load_shifting:
+      fraction_shiftable: 0.1
+      parameter_values:
+        DR: 2
+        Max_DSM_delay: 1
+demand_segments_fn: pjm_demand_segments_voll.csv
+demand_weight_factor: 1
+derate_capacity: true
+derate_techs:
+- Small Hydroelectric
+- Biomass
+- Geothermal
+distributed_gen_method:
+  MIS_Central: capacity
+  MIS_East: capacity
+  NY_East: capacity
+  NY_West: capacity
+  PJM_COMD: capacity
+  PJM_Delaware: capacity
+  PJM_Dom: capacity
+  PJM_NJCoast: capacity
+  PJM_NJLand: capacity
+  PJM_PECO: capacity
+  PJM_SMAC: capacity
+  PJM_WEST: capacity
+  PJM_WestMAC: capacity
+  SC_TVA: capacity
+  SC_VACA: capacity
+distributed_gen_profiles_fn: pjm_dg_profiles.csv
+distributed_gen_values:
+  2030:
+    MIS_Central: 550
+    MIS_East: 150
+    NY_East: 4200
+    NY_West: 1200
+    PJM_COMD: 120
+    PJM_Delaware: 420
+    PJM_Dom: 300
+    PJM_NJCoast: 1600
+    PJM_NJLand: 2400
+    PJM_PECO: 270
+    PJM_SMAC: 1600
+    PJM_WEST: 900
+    PJM_WestMAC: 300
+    SC_TVA: 400
+    SC_VACA: 1400
+  2040:
+    MIS_Central: 1100
+    MIS_East: 250
+    NY_East: 6500
+    NY_West: 1700
+    PJM_COMD: 280
+    PJM_Delaware: 720
+    PJM_Dom: 600
+    PJM_NJCoast: 2200
+    PJM_NJLand: 2700
+    PJM_PECO: 460
+    PJM_SMAC: 2700
+    PJM_WEST: 1500
+    PJM_WestMAC: 450
+    SC_TVA: 750
+    SC_VACA: 2700
+  2050:
+    MIS_Central: 2000
+    MIS_East: 400
+    NY_East: 9500
+    NY_West: 2500
+    PJM_COMD: 550
+    PJM_Delaware: 1120
+    PJM_Dom: 600
+    PJM_NJCoast: 3500
+    PJM_NJLand: 4150
+    PJM_PECO: 720
+    PJM_SMAC: 4300
+    PJM_WEST: 2500
+    PJM_WestMAC: 700
+    SC_TVA: 1400
+    SC_VACA: 5100
+eia_860m_fn: july_generator2019.xlsx
+eia_aeo_year: 2020
+eia_atb_tech_map:
+  Battery: Battery_*
+  Biomass: Biopower_Dedicated
+  Conventional Hydroelectric: Hydropower_NSD4
+  Conventional Steam Coal: Coal_newAvgCF
+  Geothermal: Geothermal_HydroFlash
+  Hydroelectric Pumped Storage: Hydropower_NSD4
+  Natural Gas Fired Combined Cycle: NaturalGas_CCAvgCF
+  Natural Gas Fired Combustion Turbine: NaturalGas_CTAvgCF
+  Natural Gas Steam Turbine: Coal_newAvgCF
+  Nuclear: Nuclear_*
+  Offshore Wind Turbine: OffShoreWind_OTRG3
+  Onshore Wind Turbine: LandbasedWind_LTRG1
+  Peaker: NaturalGas_CTAvgCF
+  Small Hydroelectric: Hydropower_NSD3
+  Solar Photovoltaic: UtilityPV_LosAngeles
+  Solar Thermal with Energy Storage: CSP_Class1
+  Solar Thermal without Energy Storage: CSP_Class1
+eia_series_fuel_names:
+  coal: STC
+  distillate: DFO
+  naturalgas: NG
+  uranium: U
+eia_series_region_names:
+  east_north_central: ENC
+  middle_atlantic: MDATL
+  south_atlantic: SOATL
+  west_north_central: WNC
+eia_series_scenario_names:
+  high_price: HIGHPRICE
+  high_resource: HIGHOGS
+  low_price: LOWPRICE
+  low_resource: LOWOGS
+  reference: REF2020
+electrification: deep_decarbonization
+emission_policies_fn: pjm_rps_ces_emission_limits.csv
+existing_om_multiplier: 1.0
+existing_startup_costs_tech_map:
+  Conventional Steam Coal: coal_large_sub
+  Natural Gas Fired Combined Cycle: gas_cc
+  Natural Gas Fired Combustion Turbine: gas_large_ct
+  Natural Gas Steam Turbine: gas_steam
+  Nuclear: nuclear
+fuel_emission_factors:
+  coal: 0.09552
+  distillate: 0.07315
+  naturalgas: 0.05306
+future_load_region_map:
+  FLRC:
+  - FRCC
+  MCC:
+  - MIS_Central
+  - MIS_IL
+  - MIS_MO
+  - S_D_AECI
+  - MIS_INKY
+  MCE:
+  - MIS_East
+  - MIS_LMI
+  MCS:
+  - MIS_AMSO
+  - MIS_WOTA
+  - MIS_LA
+  - MIS_AR
+  - MIS_D_MS
+  MCW:
+  - MIS_WUMS
+  - MIS_MNWI
+  - MIS_IA
+  NENYCLI:
+  - NY_East
+  - NY_Z_J
+  - NY_Z_K
+  NPCCNE:
+  - NENG_ME
+  - NENGREST
+  - NENG_CT
+  NPCCUPNY:
+  - NY_West
+  - NY_Z_A
+  - NY_Z_B
+  - NY_Z_C&E
+  - NY_Z_D
+  - NY_Z_F
+  - NY_Z_G-I
+  PJMCE:
+  - PJM_COMD
+  PJMD:
+  - PJM_Dom
+  PJME:
+  - PJM_WestMAC
+  - PJM_WMAC
+  - PJM_Delaware
+  - PJM_NJCoast
+  - PJM_NJLand
+  - PJM_PECO
+  - PJM_SMAC
+  - PJM_PENE
+  PJMW:
+  - PJM_WEST
+  - PJM_West
+  - PJM_AP
+  - PJM_ATSI
+  SERCCNT:
+  - SC_TVA
+  - S_C_TVA
+  - S_C_KY
+  SERCE:
+  - SC_VACA
+  - S_VACA
+  SERCSOES:
+  - S_SOU
+  SWPPC:
+  - SPP_N
+  SWPPNO:
+  - MIS_MAPP
+  - SPP_WAUE
+  - SPP_NEBR
+  - MIS_MIDA
+  SWPPSO:
+  - SPP_WEST
+  - SPP_SPS
+  TRE:
+  - ERC_PHDL
+  - ERC_REST
+  - ERC_WEST
+  WECCB:
+  - WECC_ID
+  - WECC_WY
+  - WECC_UT
+  - WECC_NNV
+  WECCCAN:
+  - WEC_CALN
+  - WEC_BANC
+  WECCCAS:
+  - WECC_IID
+  - WECC_SCE
+  - WEC_LADW
+  - WEC_SDGE
+  WECCRKS:
+  - WECC_CO
+  WECCSW:
+  - WECC_AZ
+  - WECC_NM
+  - WECC_SNV
+  WENWPP:
+  - WECC_PNW
+  - WECC_MT
+generator_columns:
+- region
+- Resource
+- cluster
+- R_ID
+- zone
+- voltage_level
+- CapRes
+- THERM
+- DISP
+- NDISP
+- STOR
+- DR
+- HEAT
+- NACC
+- TRADER
+- HYDRO
+- RPS
+- CES
+- Commit
+- Min_Share
+- Max_Share
+- Existing_Cap_MWh
+- Existing_Cap_MW
+- num_units
+- unmodified_existing_cap_mw
+- New_Build
+- Cap_size
+- Min_Cap_MW
+- Max_Cap_MW
+- Min_Share_percent
+- Max_Share_percent
+- capex
+- Inv_cost_per_MWyr
+- Fixed_OM_cost_per_MWyr
+- capex_mwh
+- Inv_cost_per_MWhyr
+- Fixed_OM_cost_per_MWhyr
+- Var_OM_cost_per_MWh
+- Var_OM_cost_per_MWh_in
+- Externality_cost_MWh
+- Start_cost_per_MW
+- Start_fuel_MMBTU_per_MW
+- Heat_rate_MMBTU_per_MWh
+- heat_rate_mmbtu_mwh_iqr
+- heat_rate_mmbtu_mwh_std
+- Fuel
+- Min_power
+- Self_disch
+- Eff_up
+- Eff_down
+- Ratio_power_to_energy
+- Min_Duration
+- Max_Duration
+- Max_DSM_delay
+- Ramp_Up_percentage
+- Ramp_Dn_percentage
+- Up_time
+- Down_time
+- NACC_Eff
+- NACC_Peak_to_Base
+- Reg_Up
+- Reg_Dn
+- Rsv_Up
+- Rsv_Dn
+- Reg_Cost
+- Rsv_Cost
+- spur_miles
+- spur_line_capex
+- interconnect_annuity
+genx_settings_fn: GenX_settings.yml
+group_technologies: true
+include_peak_day: true
+input_folder: !!python/object/apply:pathlib.PosixPath
+- /
+- D
+- PowerGenome_new
+- PowerGenome
+- example_system
+- extra_inputs_pjm
+load_region_map:
+  NEPP_UpstateNY:
+  - NY_West
+  - NY_Z_A
+  - NY_Z_B
+  - NY_Z_C&E
+  - NY_Z_D
+  RFC_East:
+  - PJM_WEST
+  - PJM_West
+  - PJM_WestMAC
+  - PJM_AP
+  - PJM_ATSI
+  - PJM_COMD
+  - PJM_Dom
+  - PJM_Delaware
+  - PJM_NJCoast
+  - PJM_NJLand
+  - PJM_PECO
+  - PJM_PENE
+  - PJM_SMAC
+  - PJM_WMAC
+  - NY_East
+  - NY_Z_F
+  - NY_Z_G-I
+  - NY_Z_J
+  - NY_Z_K
+  RFC_West:
+  - MIS_Central
+  - MIS_East
+  - MISO_MO
+  - MIS_IL
+  - MIS_LMI
+  - MIS_INKY
+  SERC_VC:
+  - SC_VACA
+  - SC_TVA
+  - S_C_KY
+misc_gen_inputs_fn: pjm_misc_gen_inputs.csv
+model_first_planning_year: 2020
+model_regions:
+- MIS_Central
+- MIS_East
+- NY_East
+- NY_West
+- PJM_COMD
+- PJM_Delaware
+- PJM_Dom
+- PJM_NJCoast
+- PJM_NJLand
+- PJM_PECO
+- PJM_SMAC
+- PJM_WEST
+- PJM_WestMAC
+- SC_TVA
+- SC_VACA
+model_tag_names:
+- THERM
+- DISP
+- NDISP
+- STOR
+- DR
+- HYDRO
+- Commit
+- RPS
+- CES
+- New_Build
+- Hydro_level
+- CapRes
+model_tag_values:
+  CES:
+    Biomass: 1
+    Biopower_: 1
+    CSP_: 1
+    Conventional Hydroelectric: 1
+    Geothermal: 1
+    LandbasedWind_: 1
+    NGCCS100: 1
+    NaturalGas_CCCCS: 1
+    NaturalGas_CCS100: 1
+    Nuclear: 1
+    OffShoreWind_: 1
+    Offshore Wind Turbine: 1
+    Onshore Wind Turbine: 1
+    Small Hydroelectric: 1
+    Solar Photovoltaic: 1
+    UtilityPV_: 1
+  CapRes:
+    Battery_: 0.95
+    Biomass: 0.93
+    Biopower_: 0.93
+    CSP_: 0.93
+    Coal Integrated Gasification Combined Cycle: 0.93
+    Conventional Steam Coal: 0.93
+    Geothermal: 0.93
+    LandbasedWind_: 0.8
+    Landfill Gas: 0.93
+    Municipal Solid Waste: 0.93
+    NGCCS0.900: 0.93
+    Natural Gas Fired Combined Cycle: 0.93
+    Natural Gas Fired Combustion Turbine: 0.93
+    Natural Gas Internal Combustion Engine: 0.93
+    Natural Gas Steam Turbine: 0.93
+    NaturalGas_: 0.93
+    Nuclear: 0.93
+    Nuclear_: 0.93
+    OffShoreWind_: 0.8
+    Offshore Wind Turbine: 0.8
+    Onshore Wind Turbine: 0.8
+    Other Gases: 0.93
+    Other Natural Gas: 0.93
+    Other Waste Biomass: 0.93
+    Other_peaker: 0.93
+    Petroleum Coke: 0.93
+    Petroleum Liquids: 0.93
+    Solar Photovoltaic: 0.8
+    UtilityPV_: 0.8
+    Wood/Wood Waste Biomass: 0.93
+  Commit:
+    Biomass: 1
+    Biopower_: 1
+    Coal Integrated Gasification Combined Cycle: 1
+    Conventional Steam Coal: 1
+    NGCCS100: 1
+    Natural Gas Fired Combined Cycle: 1
+    Natural Gas Fired Combustion Turbine: 1
+    Natural Gas Internal Combustion Engine: 1
+    Natural Gas Steam Turbine: 1
+    NaturalGas_: 1
+    Nuclear: 1
+    Nuclear_: 1
+    Other_peaker: 1
+    Petroleum Coke: 1
+    Petroleum Liquids: 1
+  DISP:
+    CSP_: 1
+    LandbasedWind_: 1
+    OffShoreWind_: 1
+    Offshore Wind Turbine: 1
+    Onshore Wind Turbine: 1
+    Solar Photovoltaic: 1
+    Solar Thermal without Energy Storage: 1
+    UtilityPV_: 1
+  DR: null
+  HYDRO:
+    Conventional Hydroelectric: 1
+  Hydro_level:
+    Conventional Hydroelectric: 0.5
+  NDISP:
+    Biomass: 1
+    Geothermal: 1
+    Small Hydroelectric: 1
+    Wood/Wood Waste Biomass: 1
+  New_Build:
+    Battery_: 1
+    Biomass: -1
+    Biopower_: 1
+    Conventional Hydroelectric: -1
+    Geothermal: -1
+    LandbasedWind_: 1
+    NGCCS100: 1
+    NaturalGas_: 1
+    OffShoreWind_: 1
+    Small Hydroelectric: -1
+    UtilityPV_: 1
+  RPS:
+    Biomass: 1
+    Biopower_: 1
+    CSP_: 1
+    Conventional Hydroelectric: 0
+    Geothermal: 1
+    LandbasedWind_: 1
+    OffShoreWind_: 1
+    Offshore Wind Turbine: 1
+    Onshore Wind Turbine: 1
+    Small Hydroelectric: 1
+    Solar Photovoltaic: 1
+    UtilityPV_: 1
+  STOR:
+    Battery: 2
+    Hydroelectric Pumped Storage: 1
+  THERM:
+    Biopower_: 1
+    CSP_: 1
+    Coal Integrated Gasification Combined Cycle: 1
+    Conventional Steam Coal: 1
+    Geothermal: 1
+    Landfill Gas: 1
+    Municipal Solid Waste: 1
+    NGCCS100: 1
+    Natural Gas Fired Combined Cycle: 1
+    Natural Gas Fired Combustion Turbine: 1
+    Natural Gas Internal Combustion Engine: 1
+    Natural Gas Steam Turbine: 1
+    NaturalGas_: 1
+    Nuclear: 1
+    Nuclear_: 1
+    Other Gases: 1
+    Other Natural Gas: 1
+    Other Waste Biomass: 1
+    Other_peaker: 1
+    Petroleum Coke: 1
+    Petroleum Liquids: 1
+model_year: 2030
+modified_atb_new_gen:
+  NGCCS100:
+    atb_cost_case: Mid
+    atb_tech_detail: CCCCSAvgCF
+    atb_technology: NaturalGas
+    capex:
+    - add
+    - 116000
+    heat_rate:
+    - add
+    - 0.365
+    new_cost_case: Mid
+    new_tech_detail: CCS100
+    new_technology: NaturalGas
+    o_m_fixed_mw:
+    - add
+    - 9670
+    o_m_variable_mwh:
+    - mul
+    - 1.076
+    size_mw: 500
+new_build_startup_costs:
+  Coal_CCS30: coal_supercritical
+  Coal_CCS90: coal_supercritical
+  Coal_IGCC: coal_supercritical
+  Coal_new: coal_supercritical
+  NaturalGas_CC: gas_cc
+  NaturalGas_CCS100: gas_cc
+  NaturalGas_CT: gas_large_ct
+new_gen_not_available:
+  MIS_Central:
+  - OffShoreWind
+  MIS_East:
+  - OffShoreWind
+  NY_West:
+  - OffShoreWind
+  PJM_COMD:
+  - OffShoreWind
+  PJM_Delaware:
+  - LandbasedWind
+  PJM_NJCoast:
+  - LandbasedWind
+  PJM_NJLand:
+  - OffShoreWind
+  - LandbasedWind
+  PJM_PECO:
+  - OffShoreWind
+  PJM_SMAC:
+  - OffShoreWind
+  PJM_WEST:
+  - OffShoreWind
+  PJM_WestMAC:
+  - OffShoreWind
+  SC_TVA:
+  - OffShoreWind
+  SC_VACA:
+  - LandbasedWind
+new_wind_solar_regional_bins:
+  LandbasedWind:
+    MIS_Central: 8
+    MIS_East: 3
+    NY_East: 1
+    NY_West: 2
+    PJM_COMD: 5
+    PJM_Dom: 1
+    PJM_PECO: 1
+    PJM_SMAC: 1
+    PJM_WEST: 4
+    PJM_WestMAC: 2
+    SC_TVA: 2
+  OffShoreWind:
+    NY_East: 6
+    PJM_Delaware: 1
+    PJM_Dom: 2
+    PJM_NJCoast: 5
+    SC_VACA: 6
+  UtilityPV:
+    MIS_Central: 1
+    MIS_East: 1
+    NY_East: 1
+    NY_West: 1
+    PJM_COMD: 1
+    PJM_Delaware: 1
+    PJM_Dom: 1
+    PJM_NJCoast: 1
+    PJM_NJLand: 1
+    PJM_PECO: 1
+    PJM_SMAC: 1
+    PJM_WEST: 4
+    PJM_WestMAC: 1
+    SC_TVA: 2
+    SC_VACA: 1
+ng_price: reference
+num_clusters:
+  Biomass: 1
+  Conventional Hydroelectric: 1
+  Conventional Steam Coal: 1
+  Geothermal: 1
+  Hydroelectric Pumped Storage: 1
+  Landfill Gas: 1
+  Municipal Solid Waste: 1
+  Natural Gas Fired Combined Cycle: 1
+  Natural Gas Fired Combustion Turbine: 1
+  Natural Gas Internal Combustion Engine: 1
+  Natural Gas Steam Turbine: 1
+  Nuclear: 1
+  Offshore Wind Turbine: 1
+  Onshore Wind Turbine: 1
+  Other Waste Biomass: 1
+  Peaker: 1
+  Petroleum Liquids: 1
+  Small Hydroelectric: 1
+  Solar Photovoltaic: 1
+  Wood/Wood Waste Biomass: 1
+onshore_wind_power_density: 1.6
+partial_ces: false
+plant_region_map_fn: pjm_withGenX_plants_eia.csv
+proposed_gen_heat_rates:
+  Natural Gas Fired Combined Cycle: 6.41
+  Natural Gas Fired Combustion Turbine: 9.66
+  Natural Gas Internal Combustion Engine: 8.16
+proposed_min_load:
+  Natural Gas Fired Combined Cycle: 0.3
+  Natural Gas Fired Combustion Turbine: 0.3
+  Natural Gas Internal Combustion Engine: 0.18
+proposed_status_included:
+- V
+- TS
+- U
+- T
+pv_ac_dc_ratio: 1.3
+pv_power_density: 3
+reduce_time_domain: true
+region_aggregations:
+  MIS_Central:
+  - MIS_INKY
+  - MISO_IL
+  - MISO_MO
+  MIS_East:
+  - MIS_LMI
+  NY_East:
+  - NY_Z_F
+  - NY_Z_G-I
+  - NY_Z_J
+  - NY_Z_K
+  NY_West:
+  - NY_Z_A
+  - NY_Z_B
+  - NY_Z_C&E
+  - NY_Z_D
+  PJM_WEST:
+  - PJM_West
+  - PJM_AP
+  - PJM_ATSI
+  - S_C_KY
+  PJM_WestMAC:
+  - PJM_PENE
+  - PJM_WMAC
+  SC_TVA:
+  - S_C_TVA
+  SC_VACA:
+  - S_VACA
+region_wind_pv_cap_fn: existing_wind_pv_capacity.csv
+regional_load_fn: pjm_regional_load_profiles.csv
+regional_load_includes_demand_response: true
+regional_no_grouping: null
+regional_tag_values: null
+regular_load_growth_start_year: 2018
+renewable_nuclear_capex: renewable_mid_nuclear_mid
+resource_variability_fn: pjm_variable_resource_profiles.csv
+retirement_ages:
+  All Other: 40
+  Batteries: 40
+  Coal Integrated Gasification Combined Cycle: 40
+  Conventional Hydroelectric: 200
+  Conventional Steam Coal: 120
+  Flywheels: 40
+  Geothermal: 200
+  Hydroelectric Pumped Storage: 500
+  Hydrokinetic: 40
+  Landfill Gas: 40
+  Municipal Solid Waste: 40
+  Natural Gas Fired Combined Cycle: 120
+  Natural Gas Fired Combustion Turbine: 120
+  Natural Gas Internal Combustion Engine: 60
+  Natural Gas Steam Turbine: 60
+  Natural Gas with Compressed Air Storage: 40
+  Nuclear: 80
+  Offshore Wind Turbine: 30
+  Onshore Wind Turbine: 30
+  Other Gases: 60
+  Other Natural Gas: 60
+  Other Waste Biomass: 60
+  Petroleum Coke: 40
+  Petroleum Liquids: 40
+  Small Hydroelectric: 200
+  Solar Photovoltaic: 40
+  Solar Thermal with Energy Storage: 40
+  Solar Thermal without Energy Storage: 40
+  Wood/Wood Waste Biomass: 40
+scenario_definitions_fn: pjm_scenario_inputs.csv
+settings_management:
+  2030:
+    ccs_capex:
+      high:
+        atb_modifiers:
+          NGCCS100:
+            capex:
+            - mul
+            - 1.2
+            tech_detail: CCS100
+            technology: NaturalGas
+          ngccccs:
+            capex:
+            - mul
+            - 1.2
+            tech_detail: CCCCSAvgCF
+            technology: NaturalGas
+      low:
+        atb_modifiers:
+          NGCCS100:
+            capex:
+            - mul
+            - 0.85
+            tech_detail: CCS100
+            technology: NaturalGas
+          ngccccs:
+            capex:
+            - mul
+            - 0.85
+            tech_detail: CCCCSAvgCF
+            technology: NaturalGas
+      mid:
+        atb_modifiers:
+          NGCCS100:
+            capex:
+            - mul
+            - 1
+            tech_detail: CCS100
+            technology: NaturalGas
+          ngccccs:
+            capex:
+            - mul
+            - 1
+            tech_detail: CCCCSAvgCF
+            technology: NaturalGas
+    ccs_disposal_cost:
+      'yes':
+        ccs_disposal_cost: -27
+    conv_hydro_rps_eligible:
+      'no':
+        model_tag_values:
+          RPS:
+            Conventional Hydroelectric: 0
+      'yes':
+        model_tag_values:
+          RPS:
+            Conventional Hydroelectric: 1
+    ng_price:
+      high:
+        aeo_fuel_scenarios:
+          naturalgas: low_resource
+      low:
+        aeo_fuel_scenarios:
+          naturalgas: high_resource
+      reference:
+        aeo_fuel_scenarios:
+          naturalgas: reference
+    renewable_nuclear_capex:
+      renewable_low_nuclear_low:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Low
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Low
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Low
+          - 1
+        - - Battery
+          - '*'
+          - Low
+          - 1
+        - - Nuclear
+          - '*'
+          - Low
+          - 500
+      renewable_low_nuclear_mid:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Low
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Low
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Low
+          - 1
+        - - Battery
+          - '*'
+          - Low
+          - 1
+        - - Nuclear
+          - '*'
+          - Mid
+          - 500
+      renewable_mid_nuclear_low:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Mid
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Mid
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Mid
+          - 1
+        - - Battery
+          - '*'
+          - Mid
+          - 1
+        - - Nuclear
+          - '*'
+          - Low
+          - 500
+      renewable_mid_nuclear_mid:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Mid
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Mid
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Mid
+          - 1
+        - - Battery
+          - '*'
+          - Mid
+          - 1
+        - - Nuclear
+          - '*'
+          - Mid
+          - 500
+    tx_expansion:
+      high:
+        tx_expansion_per_period: 1.0
+      limited:
+        tx_expansion_per_period: 0.25
+  2040:
+    ccs_capex_solar_itc:
+      high:
+        atb_modifiers:
+          NGCCS100:
+            capex:
+            - mul
+            - 1.2
+            tech_detail: CCS100
+            technology: NaturalGas
+          ngccccs:
+            capex:
+            - mul
+            - 1.2
+            tech_detail: CCCCSAvgCF
+            technology: NaturalGas
+      low:
+        atb_modifiers:
+          NGCCS100:
+            capex:
+            - mul
+            - 0.85
+            tech_detail: CCS100
+            technology: NaturalGas
+          ngccccs:
+            capex:
+            - mul
+            - 0.85
+            tech_detail: CCCCSAvgCF
+            technology: NaturalGas
+      mid:
+        atb_modifiers:
+          NGCCS100:
+            capex:
+            - mul
+            - 1
+            tech_detail: CCS100
+            technology: NaturalGas
+          ngccccs:
+            capex:
+            - mul
+            - 1
+            tech_detail: CCCCSAvgCF
+            technology: NaturalGas
+    ccs_disposal_cost:
+      'yes':
+        ccs_disposal_cost: 23
+    conv_hydro_rps_eligible:
+      'no':
+        model_tag_values:
+          RPS:
+            Conventional Hydroelectric: 0
+      'yes':
+        model_tag_values:
+          RPS:
+            Conventional Hydroelectric: 1
+    ng_price:
+      high:
+        aeo_fuel_scenarios:
+          naturalgas: low_resource
+      low:
+        aeo_fuel_scenarios:
+          naturalgas: high_resource
+      reference:
+        aeo_fuel_scenarios:
+          naturalgas: reference
+    renewable_nuclear_capex:
+      renewable_low_nuclear_low:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Low
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Low
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Low
+          - 1
+        - - Battery
+          - '*'
+          - Low
+          - 1
+        - - Nuclear
+          - '*'
+          - Low
+          - 500
+      renewable_low_nuclear_mid:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Low
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Low
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Low
+          - 1
+        - - Battery
+          - '*'
+          - Low
+          - 1
+        - - Nuclear
+          - '*'
+          - Mid
+          - 500
+      renewable_mid_nuclear_low:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Mid
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Mid
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Mid
+          - 1
+        - - Battery
+          - '*'
+          - Mid
+          - 1
+        - - Nuclear
+          - '*'
+          - Low
+          - 500
+      renewable_mid_nuclear_mid:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Mid
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Mid
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Mid
+          - 1
+        - - Battery
+          - '*'
+          - Mid
+          - 1
+        - - Nuclear
+          - '*'
+          - Mid
+          - 500
+    tx_expansion:
+      high:
+        tx_expansion_per_period: 1.0
+      limited:
+        tx_expansion_per_period: 0.25
+  2050:
+    ccs_capex_solar_itc:
+      high:
+        atb_modifiers:
+          NGCCS100:
+            capex:
+            - mul
+            - 1.2
+            tech_detail: CCS100
+            technology: NaturalGas
+          ngccccs:
+            capex:
+            - mul
+            - 1.2
+            tech_detail: CCCCSAvgCF
+            technology: NaturalGas
+      low:
+        atb_modifiers:
+          NGCCS100:
+            capex:
+            - mul
+            - 0.85
+            tech_detail: CCS100
+            technology: NaturalGas
+          ngccccs:
+            capex:
+            - mul
+            - 0.85
+            tech_detail: CCCCSAvgCF
+            technology: NaturalGas
+      mid:
+        atb_modifiers:
+          NGCCS100:
+            capex:
+            - mul
+            - 1
+            tech_detail: CCS100
+            technology: NaturalGas
+          ngccccs:
+            capex:
+            - mul
+            - 1
+            tech_detail: CCCCSAvgCF
+            technology: NaturalGas
+    ccs_disposal_cost:
+      'yes':
+        ccs_disposal_cost: 23
+    conv_hydro_rps_eligible:
+      'no':
+        model_tag_values:
+          RPS:
+            Conventional Hydroelectric: 0
+      'yes':
+        model_tag_values:
+          RPS:
+            Conventional Hydroelectric: 1
+    ng_price:
+      high:
+        aeo_fuel_scenarios:
+          naturalgas: low_resource
+      low:
+        aeo_fuel_scenarios:
+          naturalgas: high_resource
+      reference:
+        aeo_fuel_scenarios:
+          naturalgas: reference
+    renewable_nuclear_capex:
+      renewable_low_nuclear_low:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Low
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Low
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Low
+          - 1
+        - - Battery
+          - '*'
+          - Low
+          - 1
+        - - Nuclear
+          - '*'
+          - Low
+          - 500
+      renewable_low_nuclear_mid:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Low
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Low
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Low
+          - 1
+        - - Battery
+          - '*'
+          - Low
+          - 1
+        - - Nuclear
+          - '*'
+          - Mid
+          - 500
+      renewable_mid_nuclear_low:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Mid
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Mid
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Mid
+          - 1
+        - - Battery
+          - '*'
+          - Mid
+          - 1
+        - - Nuclear
+          - '*'
+          - Low
+          - 500
+      renewable_mid_nuclear_mid:
+        atb_new_gen:
+        - - NaturalGas
+          - CCCCSAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CCAvgCF
+          - Mid
+          - 500
+        - - NaturalGas
+          - CTAvgCF
+          - Mid
+          - 100
+        - - LandbasedWind
+          - LTRG1
+          - Mid
+          - 1
+        - - OffShoreWind
+          - OTRG3
+          - Mid
+          - 1
+        - - UtilityPV
+          - LosAngeles
+          - Mid
+          - 1
+        - - Battery
+          - '*'
+          - Mid
+          - 1
+        - - Nuclear
+          - '*'
+          - Mid
+          - 500
+    tx_expansion:
+      high:
+        tx_expansion_per_period: 1.0
+      limited:
+        tx_expansion_per_period: 0.25
+small_hydro: true
+small_hydro_mw: 30
+small_hydro_regions:
+- MIS_Central
+- MIS_East
+- NY_East
+- NY_West
+- PJM_COMD
+- PJM_Delaware
+- PJM_Dom
+- PJM_NJCoast
+- PJM_NJLand
+- PJM_PECO
+- PJM_SMAC
+- PJM_WEST
+- PJM_WestMAC
+- SC_TVA
+- SC_VACA
+spur_line_capex_mw_mile:
+  MIS_Central: 3900
+  MIS_East: 4100
+  NY_East: 5200
+  NY_West: 5200
+  PJM_COMD: 5200
+  PJM_Delaware: 5200
+  PJM_Dom: 5200
+  PJM_NJCoast: 5200
+  PJM_NJLand: 5200
+  PJM_PECO: 5200
+  PJM_SMAC: 5200
+  PJM_WEST: 5200
+  PJM_WestMAC: 5200
+  SC_TVA: 3800
+  SC_VACA: 3800
+spur_line_investment_years: 60
+spur_line_wacc: 0.069
+startup_costs_per_cold_start_mw:
+  coal_large_sub: 124.68588000889055
+  coal_small_sub: 174.56023201244676
+  coal_supercritical: 123.49839543737731
+  gas_aero_ct: 37.99950628842379
+  gas_cc: 93.81128114954622
+  gas_large_ct: 122.31091086586406
+  gas_steam: 89.06134286349325
+  nuclear: 249.3717600177811
+startup_costs_per_cold_start_usd_year: 2011
+startup_costs_type: startup_costs_per_cold_start_mw
+startup_fuel_use:
+  Conventional Steam Coal: 16.5
+  Natural Gas Fired Combined Cycle: 2.0
+  Natural Gas Fired Combustion Turbine: 3.5
+  Natural Gas Steam Turbine: 13.7
+startup_vom_costs_mw:
+  coal_large_sub: 3.1943334973706246
+  coal_small_sub: 3.3368316459522136
+  coal_supercritical: 3.538704023109465
+  gas_aero_ct: 0.8312392000592703
+  gas_cc: 1.2231091086586408
+  gas_large_ct: 0.9143631200651974
+  gas_steam: 1.2231091086586408
+  nuclear: 6.412416686171514
+startup_vom_costs_usd_year: 2011
+target_region_pst_offset: -1
+target_usd_year: 2017
+tech_fuel_map:
+  Conventional Steam Coal: coal
+  Natural Gas Fired Combined Cycle: naturalgas
+  Natural Gas Fired Combustion Turbine: naturalgas
+  Natural Gas Steam Turbine: naturalgas
+  Nuclear: uranium
+  Petroleum Liquids: distillate
+tech_groups:
+  Biomass:
+  - Wood/Wood Waste Biomass
+  - Landfill Gas
+  - Municipal Solid Waste
+  - Other Waste Biomass
+  Other_peaker:
+  - Natural Gas Internal Combustion Engine
+  - Petroleum Liquids
+time_domain_days_per_period: 4
+time_domain_periods: 2
+tx_expansion: high
+tx_expansion_per_period: 1.0
+tx_line_loss_100_miles: 0.01
+tx_reinforcement_cost_mw_mile:
+  MIS_Central: 900
+  MIS_East: 1050
+  NY_East: 3500
+  NY_West: 3500
+  PJM_COMD: 1350
+  PJM_Delaware: 3500
+  PJM_Dom: 1350
+  PJM_NJCoast: 3500
+  PJM_NJLand: 3500
+  PJM_PECO: 3500
+  PJM_SMAC: 3500
+  PJM_WEST: 1350
+  PJM_WestMAC: 1750
+  SC_TVA: 1050
+  SC_VACA: 900
+tx_reinforcement_investment_years: 60
+tx_reinforcement_wacc: 0.069
+use_nems_coal_ng_om: true
+user_region_geodata_fn: PJM_CUSTOM_REGIONS.geojson
+user_transmission_constraints_fn: pjm_user_transmission.csv
+wind_pv_fraction_developable: 0.5
+year: !!python/object/apply:numpy.core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args:
+  - i8
+  - 0
+  - 1
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  7gcAAAAAAAA=
